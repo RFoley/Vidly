@@ -45,5 +45,10 @@ namespace Vidly.Controllers
             return View(movie);
 
         }
+
+        public ActionResult MovieForm(string @class)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
